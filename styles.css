@@ -1,76 +1,94 @@
-body
-{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-header
-{
-    display: flex;
-    background-color: #1F2937;
-    padding: 8px 160px;
-    justify-content: space-between;
-    align-items: center;
+header {
+  display: flex;
+  background-color: #1f2937;
+  padding: 8px 160px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-a
-{
-    text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-h1
-{
-    color: #F9FAF8;
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
 }
 
-button
-{
-    background-color: #3882f6;
-    color: #E5E7EB;
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 12px;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  gap: 32px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1f2937;
+  padding: 80px 160px;
+  align-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  justify-content: start;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  gap: 80px;
+}
+
+.illustrations {
+  display: flex;
+  gap: 80px;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.illustration img {
+    border: 4px solid #3882f6;
     border-radius: 12px;
-    font-size: 18px;
-    width: 120px;
-    height: 40px;
-}
-
-img
-{
-    flex-shrink: 0;
-}
-
-.logo
-{
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-}
-
-.links
-{
-    display: flex;
-    gap: 32px;
-}
-
-.hero
-{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #1F2937;
-    padding: 80px 160px;
-    align-content: center;
-}
-
-.container
-{
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    justify-content: start;
-}
-
-.subtext
-{
-    font-size: 18px;
-    color: #E5E7EB;
 }
